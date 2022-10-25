@@ -1,3 +1,0 @@
-The system shall provide an illustrative table that describes the right way to do waste sorting.
-The system shall allow the user to analyze the barcode of the product and display which material the product is made of.
-The system shall provide a feedback system which the user can leave a review.
