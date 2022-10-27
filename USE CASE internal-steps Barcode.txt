@@ -1,0 +1,17 @@
+Use Case internal steps
+
+Use Case : Analyze Barcode
+
+1. The registered user requests to write a barcode.
+2. Log in.
+3. The system prepares a blank box.
+4. The system asks the registered user to enter a barcode.
+5. The registered user inserts a barcode.
+6. The system reads the barcode.
+7. The system compares the barcode with the barcode taken from the product database.
+8. The system displays the product information.
+
+Extensions:
+5a. The barcode is wrong: The system notifies the registered user and requests to reinsert the barcode.
+7a. Product database does not respond: The system notifies the registered user and terminates the use case.
+7b. The barcode is not present in the product database: The system notifies the registered user and terminates the use case.
