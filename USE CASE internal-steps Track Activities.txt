@@ -12,8 +12,6 @@ Name: Track Activities
 9. The registered user indicates the list is complete.
 10. The system saves the list in the Local Database.
 
-
-
 Extensions:
 3a. Local Database does not respond: The system notifies the registered user and terminates the use case.
 4a. Activities Database does not respond: The system notifies the registered user and terminates the use case.
