@@ -1,21 +1,24 @@
-USE CASE
+USE CASE: internal steps
 
 Name: Track Activities
 1. The registered user requests to track the activities.
 2. Log In
 3. The system gets data from the Local Database.
-4. The system gets available activities from the Activities Database.
-5. The system asks the registered user to select activities from a list of default activities and to select the date.
+4. The system prepares three blank boxes.
+5. The system asks the registered user to write what kind of activity, the date and a comment in three different blank boxes.
 6. The registered user selects activities from the list and the date.
 7. The system creates the registered user’s list with the new data in the Local Database.
 8. The system displays the new registered user’s list.
 9. The registered user indicates the list is complete.
 10. The system saves the list in the Local Database.
 
+
+
 Extensions:
 3a. Local Database does not respond: The system notifies the registered user and terminates the use case.
-4a. Activities Database does not respond: The system notifies the registered user and terminates the use case.
-5a. The registered user’s list already exists: The system asks the registered user to remove the activity.
 7a. The registered user’s list already exists: The system updates the registered user’s list instead of creating a new one.
 7b. Local Database does not respond: The system notifies the registered user and terminates the use case.
+9a. The registered user wants to change the list: The registered user asks to remove activities.
+9b. The system asks the registered user to remove the activities.
+9c. The registered user selects the activities to remove.
 10a. Local Database does not respond: The system notifies the registered user and terminates the use case.
